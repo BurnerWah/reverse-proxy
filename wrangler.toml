@@ -1,0 +1,8 @@
+name = "reverse-proxy"
+main = "src/index.ts"
+compatibility_date = "2022-08-07"
+
+[[kv_namespaces]]
+binding = "PROXY_DATA"
+id = "af9414e0447944b883b9f2b33e69c522"
+preview_id = "af9414e0447944b883b9f2b33e69c522"
