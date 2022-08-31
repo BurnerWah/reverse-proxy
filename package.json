@@ -27,6 +27,6 @@
     "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'"
   },
   "dependencies": {
-    "hono": "^2.0.9"
+    "hono": "^2.1.3"
   }
 }
