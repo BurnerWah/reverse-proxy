@@ -1,11 +1,11 @@
 import { Context, Hono } from 'hono'
 import { logger } from 'hono/logger'
 
-const app = new Hono<Bindings>({ strict: false })
+const app = new Hono<Env>({ strict: false })
 
 app.use(logger())
 
-async function handler(ctx: Context<'name', Bindings>): Promise<Response> {
+async function handler(ctx: Context<'name', Env>): Promise<Response> {
   const { name } = ctx.req.param()
   const url = new URL(ctx.req.url)
   const { pathname, search, host } = url
