@@ -6,9 +6,9 @@
     "start": "wrangler dev",
     "deploy": "wrangler publish",
     "lint": "concurrently 'npm:lint:*'",
-    "lint:eslint": "eslint --max-warnings=0 src",
-    "lint:prettier": "prettier --check '*.{json,js}' 'src/**/*.{js,ts,tsx}'",
-    "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'"
+    "lint:eslint": "eslint --max-warnings=0 --cache .",
+    "lint:prettier": "prettier --cache --ignore-unknown  --check .",
+    "format": "prettier --cache --ignore-unknown --write ."
   },
   "dependencies": {
     "hono": "^2.5.4"
