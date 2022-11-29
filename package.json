@@ -26,6 +26,6 @@
     "eslint-plugin-sonarjs": "^0.16.0",
     "prettier": "^2.7.1",
     "typescript": "^4.9.3",
-    "wrangler": "^2.4.2"
+    "wrangler": "^2.4.4"
   }
 }
