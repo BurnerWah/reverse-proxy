@@ -2,8 +2,14 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - .github/workflows/wrangler.yml
+      - package.json
+      - pnpm-lock.yaml
+      - src/**
+      - tsconfig*.json
+      - wrangler.toml
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
@@ -17,12 +23,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - uses: pnpm/action-setup@v2
+
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
-          cache: npm
+          node-version: 18
+          cache: pnpm
 
-      - run: npm install
+      - run: pnpm install --frozen-lockfile
 
       - name: Publish
         uses: cloudflare/wrangler-action@2.0.0
