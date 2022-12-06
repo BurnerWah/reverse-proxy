@@ -14,7 +14,7 @@
     "hono": "^2.5.8"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^3.18.0",
+    "@cloudflare/workers-types": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
     "@typescript-eslint/parser": "^5.45.1",
     "concurrently": "^7.6.0",
