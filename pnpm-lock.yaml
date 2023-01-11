@@ -10,7 +10,7 @@ specifiers:
   eslint-config-typescript: ^3.0.0
   eslint-plugin-optimize-regex: ^1.2.1
   eslint-plugin-regexp: ^1.11.0
-  eslint-plugin-sonarjs: ^0.17.0
+  eslint-plugin-sonarjs: ^0.18.0
   hono: ^2.5.8
   prettier: ^2.8.0
   typescript: ^4.9.3
@@ -29,7 +29,7 @@ devDependencies:
   eslint-config-typescript: 3.0.0_ddb6u2tca4jaerj7fwocxwve6u
   eslint-plugin-optimize-regex: 1.2.1
   eslint-plugin-regexp: 1.11.0_eslint@8.29.0
-  eslint-plugin-sonarjs: 0.17.0_eslint@8.29.0
+  eslint-plugin-sonarjs: 0.18.0_eslint@8.29.0
   prettier: 2.8.0
   typescript: 4.9.3
   wrangler: 2.6.1
@@ -944,8 +944,8 @@ packages:
       scslre: 0.1.6
     dev: true
 
-  /eslint-plugin-sonarjs/0.17.0_eslint@8.29.0:
-    resolution: {integrity: sha512-jtGtxI49UbJJeJj7CVRLI3+LLH+y+hkR3GOOwM7vBbci9DEFIRGCWvEd2BJScrzltZ6D6iubukTAfc9cyG7sdw==}
+  /eslint-plugin-sonarjs/0.18.0_eslint@8.29.0:
+    resolution: {integrity: sha512-DJ3osLnt6KFdT5e9ZuIDOjT5A6wUGSLeiJJT03lPgpdD+7CVWlYAw9Goe3bt7SmbFO3Xh89NOCZAuB9XA7bAUQ==}
     engines: {node: '>=14'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
