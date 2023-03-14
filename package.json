@@ -11,7 +11,7 @@
     "format": "prettier --cache --ignore-unknown --write ."
   },
   "dependencies": {
-    "hono": "^2.5.8"
+    "hono": "^3.0.5"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.0.0",
